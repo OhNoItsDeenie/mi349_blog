@@ -7,7 +7,7 @@
     <title>About Us</title>
 </head>
 <body>
-  <h1>About Page</h1>
+  <h1>Contact Page</h1>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -16,6 +16,22 @@
         </ul>
     </nav>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate a, nulla exercitationem quae provident tempora id, corrupti suscipit, neque modi soluta placeat quaerat hic reiciendis ipsum libero. Dolores, molestias? Nihil.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio hic minus aliquid dolore accusantium architecto illum cumque laudantium nam. Non corrupti quasi pariatur consequatur, ducimus est libero. Doloribus, dicta numquam.</p>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email" />
+          </li>
+          <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+        </ul>
+      </form>
+      
 </body>
 </html>
