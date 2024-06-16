@@ -1,6 +1,6 @@
 /* Add screen styles below */
 body {
-    background-color: wheat;
+    background-color: rgb(174, 206, 236);
     font-family: Arial, Helvetica, sans-serif;
     margin: 40px;
     padding: 40px;
@@ -13,6 +13,20 @@ body {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    
+}
+.navigation{
+    display: flex;
+    background: rgb(97, 155, 172);
+}
+.pages:nth-of-type(1){
+    flex:2;
+}
+.pages:nth-of-type(2){
+    flex:2;
+}
+.pages:nth-of-type(3){
+    flex:2;
 }
 h1{
     font-size: 3em;
@@ -25,17 +39,21 @@ p{
     line-height: 1.4em;
 }
 #blog{
-    border-top: 1px dotted #ccc;
+    border-top: 1px dotted #b288ce;
 }
 
 .blog-post{
-    border-bottom: 1px dotted #ccc;
+    border-bottom: 1px dotted #b288ce;
     width: 70%;
 }
 
 .LonnieScroll{
     position: fixed;
-    width: 10%;
-    top: 10%;
-    left: 80%;
+    top: 30%;
+    left: 70%;
+}
+.pages{
+    padding: 10px;
+    margin: 10px;
+    background: #d4dcff;
 }

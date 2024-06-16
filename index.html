@@ -10,13 +10,14 @@
   <body>
   <h1>Home</h1>
   <nav class="sticky">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">contact</a></li>
-    </ul>
+    <section class="navigation">
+      <h4>Navigation</h4>
+      <div class="pages"><a href="index.html">Home</a></div>
+      <div class="pages"><a href="about.html">About</a></div>
+      <div class="pages"><a href="contact.html">Contact</a></div>
+    </section>
   </nav>
-  </header>
+  
   <section id="blog">
     <h2>Should you get a bird?</h2>
     <article class="blog-post">
@@ -100,12 +101,17 @@
       <button>Subscribe</button>
     </form>
   </section>
-  <fixed class="LonnieScroll"> 
-    <img src="tinyLonnie.JPG" alt="look at the bird being sleepy">
+  <div class="LonnieScroll"> 
+    <img src="tinyLonnie.JPG" alt="look at the bird being sleepy" style="max-width:200px;width:100%">
     <p>
       Lonnie when they're not being a brat
     </p>
-  </fixed>
+    <img src="LonnieDream.png" alt="Hawk pic" style="max-width:200px;width:100%">
+    
+    <p>
+      What Lonnie thinks they look like 
+    </p>
+  </div>
   <script src="index.js"></script>
   </body>
 </html>
