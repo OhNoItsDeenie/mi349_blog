@@ -1,11 +1,41 @@
 /* Add screen styles below */
+body {
+    background-color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+
+}
+.sticky{
+    background: rgb(190, 226, 236);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+h1{
+    font-size: 3em;
+    margin: 0;
+}
 a.active {
     font-weight: bold;
 }
 p{
-    width: 900px;
+    line-height: 1.4em;
 }
-img{
-    width: 800px;
-    
+#blog{
+    border-top: 1px dotted #ccc;
+}
+
+.blog-post{
+    border-bottom: 1px dotted #ccc;
+    width: 70%;
+}
+
+.LonnieScroll{
+    position: fixed;
+    width: 10%;
+    top: 10%;
+    left: 80%;
 }
